@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6e90ac4f.chunk.css",
+    "main.js": "/static/js/main.817c9a0e.chunk.js",
+    "runtime-main.js": "/static/js/runtime-main.69170809.js",
+    "static/css/2.7a28d8c0.chunk.css": "/static/css/2.7a28d8c0.chunk.css",
+    "static/js/2.9fa08644.chunk.js": "/static/js/2.9fa08644.chunk.js",
+    "index.html": "/index.html",
+    "precache-manifest.b9ac5dd7cababec91611c83e064f715d.js": "/precache-manifest.b9ac5dd7cababec91611c83e064f715d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/js/2.9fa08644.chunk.js.LICENSE.txt": "/static/js/2.9fa08644.chunk.js.LICENSE.txt",
+    "static/media/faq.png": "/static/media/faq.1c94c886.png",
+    "static/media/logo.png": "/static/media/logo.01578c65.png",
+    "static/media/pablo-education.png": "/static/media/pablo-education.edcef817.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.69170809.js",
+    "static/css/2.7a28d8c0.chunk.css",
+    "static/js/2.9fa08644.chunk.js",
+    "static/css/main.6e90ac4f.chunk.css",
+    "static/js/main.817c9a0e.chunk.js"
+  ]
+}
