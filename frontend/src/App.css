@@ -1,0 +1,119 @@
+
+/* App  */
+html,body
+{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.App {
+  text-align: center;
+  height: 100%;
+}
+
+.switch-wrapper {
+  position: relative;
+
+}
+
+.switch-wrapper > div {
+  position: absolute;
+  right:0;  
+  left:0;
+  touch-action: none;
+}
+
+/* Home Screen */
+
+
+
+#protectNav {
+  margin-top: 5rem;
+}
+
+
+
+
+/* Login Screen */
+
+#KUGPA {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+
+
+#loadingScreen {
+  background-color: white!important;
+}
+
+
+
+/* About Screen */
+
+#ABOUT {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  padding-left: 45px;
+  padding-right: 30px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+}
+
+/* Contact Screen */
+
+#CONTACT {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 2rem;
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+
+}
+
+.sc-htpNat.gUlgSp {
+  height: 90vh;
+  overflow-y: hidden;
+}
+
+.gLvkjG {
+  font-size: 1.5rem!important;
+}
+
+
+
+#helloText span {
+  color: #ff1e56!important;
+}
+
+
+
+
+
+
+@media (max-width: 1000px) {
+  #pablo {
+    display:none;
+  }
+
+  #KocGirl {
+    display:none;
+  }
+
+  #myContainer {
+    padding-left: 30px!important;
+    padding-right: 30px!important;
+  }
+
+}
+
+

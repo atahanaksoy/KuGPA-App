@@ -1,0 +1,667 @@
+/* GENERAL */
+
+#CourseList {
+    height: 100%;
+    overflow-x: hidden;
+    margin-top: 2rem;
+    padding: 2rem;
+    text-align: left;
+
+}
+
+#allElements {
+    background-color: #f6f6f67a;
+
+}
+
+#section2 {
+    padding-right: 30px;
+    height: 92vh;
+}
+
+
+.semesterContainer {
+    max-height: 65vh;
+    height:auto;
+    overflow-y: auto;
+
+}
+
+.bottomNav {
+    display: block;
+    border-top: 1px solid rgba(180, 180, 180, 0.253);
+    padding:0;
+    padding-top: .5rem!important;
+    padding-bottom: .5rem!important;
+}
+
+#bottomNavContainer {
+    padding-left:2rem;
+    padding-right:2rem;
+}
+
+.bottomNavLink {
+    font-size: 0.8rem; 
+    font-weight: 600;
+    padding: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 0;
+    margin-right:0;
+}
+
+
+.bottomNavLink:hover {
+    text-shadow: 0.1px 0.1px 0.1px rgba(0, 0, 0, 0.5);
+    color:black;
+}
+
+.bottomReport {
+    position: relative;
+    margin-bottom: 1rem;
+    transition: 0.3s ease;
+    height: 100vh;
+    width: 100vw;
+    padding:0;
+    display: block;
+}
+
+#bottomReportCollapse {
+    position: absolute;
+    top: 35%;
+    left:10%;
+    margin-top: -50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#bottomReportCollapse:hover {
+    cursor: pointer;
+}
+
+#collapseIcon.MuiSvgIcon-root {
+    font-weight: 700;
+}
+
+#bottomReportData {
+    position:absolute;    
+    top: 40%;
+    margin-top: -50px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+#bottomReportData h3 {
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+.MuiSvgIcon-root.MuiSvgIcon-fontSizeSmall {
+    font-size: 2rem;
+}
+
+.bottomNavLink.active {
+    color: #4E44FE;
+}
+
+.bg-reportbg {
+    background-color: #f6f6f67a;
+}
+
+
+.bg-dark {
+    background-color: white!important;
+    -webkit-box-shadow: 0px -40px 80px -22px rgba(92,99,105,0.2);
+    -moz-box-shadow: 0px -40px 80px -22px rgba(92,99,105,0.2);
+    box-shadow: 0px -40px 80px -20px rgba(92,99,105,0.2);
+}
+
+.navRow {
+    margin: 0;
+}
+
+#addText {
+    margin-bottom: 2rem;
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+
+#snackbar {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* LectureInput */
+
+#questionMark {
+    margin-left: 1rem;
+    color: rgb(68, 67, 67);
+    font-size: 1.2rem;
+}
+
+#questionMark:hover {
+    cursor: pointer;
+}
+
+#expandClassesIcon  {
+    color: rgba(0, 0, 0, 0.609);
+    font-size: 1rem;
+    text-align: right;
+    float: right;
+}
+
+#coursesEnrolledText {
+    color: black;
+    font-size: 1.2rem;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+
+#coursesEnrolledTextGuest {
+    color: #9AA4B1;
+    font-size: 0.9rem;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#coursesEnrolledTextGuest span {
+    color: #595F71;
+    font-size: 1rem;
+    text-decoration: line-through;
+}
+
+#coursesEnrolledButton {
+    cursor:pointer;
+    border-bottom: 1px solid rgba(163, 163, 163, 0.589);
+
+}
+
+
+#enrolledCoursesList {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+ #enrolledCourseList:hover {
+     cursor:pointer;
+ }
+
+#enrolledCourse {
+    font-size: 1.2rem;
+    border: 1px solid rgba(0, 0, 0, 0.253);
+    border-radius: .25rem;
+    text-align: center;
+}
+
+#enrolledCourseDiv {
+    width: 50%;
+}
+
+#enrolledCourse:hover {
+    cursor: pointer;
+    box-shadow: 0px 10px 20px 0px rgba(158, 163, 167, 0.15);
+    background-color: white;
+    transition: 0.3s ease;
+}
+
+#lectureInput {
+    transition: all 0.3s;
+    height: 92vh;
+    overflow-y: auto;
+    padding-top: 4rem;
+    padding-left:3rem;
+    padding-right:3rem;
+    overflow-x: hidden;
+
+}   
+
+
+
+
+
+
+/* CourseList */
+
+
+    /* Semester */
+    #semesterButton {
+        margin-bottom:1rem;
+        background-color:#4E44FE;
+        border: #4E44FE;
+    }
+    
+    #semesterButton.btn:focus, #semesterButton.btn:active, #semesterButton.btn-success  {
+        background-color: #53DCC6!important;
+    }
+
+    .addedSemester {
+        background-color: #fafbfd;
+        margin-bottom: 2rem;
+        border: 0px;
+        height: auto;
+        min-height: 20rem;
+        box-shadow: 0px 10px 20px 0px rgba(158, 163, 167, 0.103);
+        
+    }
+    
+    #SemesterTitleRow {
+        margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    
+    #SemesterText {
+        font-size: 1.1rem;
+        font-weight: 700;
+        text-align: left;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    
+    #semesterSPA {
+        border-radius: 50%;
+        margin-left:auto;
+        margin-right:auto;
+        width: 8rem;
+        height: 8rem;
+        padding-top: 2.5rem;
+        text-align: center;
+        background-color: #4E44FE;
+        font-size: 1rem;
+        color:white;
+        box-shadow: 0px 10px 20px 0px rgba(84, 90, 182, 0.20);
+    }
+
+    #semesterOtherData {
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    #SPAValue {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+    }
+
+    #deleteButton {
+        background-color:transparent;
+        border: none;
+        color: #fd9ca7;
+        font-size: 1.2rem;
+        float: right;
+        text-align: right;
+    }
+
+
+
+    #cardSubtitle {
+        font-size: 0.9em!important;
+        font-weight:500;
+        text-align: left;
+        line-height: 2rem;
+        color: rgb(70, 69, 69);
+    }
+
+    /* Course In Semester */
+
+
+    .card-body {
+        padding: 1rem;
+    }
+
+
+    .addedCourse {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: auto;
+        margin-right:auto;
+        border:none;
+        background-color: #ffffff;
+        box-shadow: 0px 10px 20px 0px rgba(243, 240, 241, 0.404);
+        width: 10rem;
+        height: 6rem;
+        text-align: center;
+    }
+
+
+
+
+    #deleteCourseButton {
+        background-color: transparent;
+        border:none;
+        color:#fd9ca7;
+        font-size:1rem;
+        float:right;
+    }
+
+    #deleteCourseButton:hover {
+        cursor: pointer;
+    }
+
+    #courseName {
+        font-size: 0.9rem;
+        font-weight:700;
+        margin-left:1rem;
+    }
+
+    #cardCourseSubtitle {
+        font-size:0.8rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    #deleteButton:hover {
+        background-color:transparent;
+        border: none;  
+        cursor: pointer;
+    }
+    
+    #deleteButton:enabled {
+        background-color:transparent!important;
+        border: none;  
+    }
+
+
+/* Report */
+
+#dataBlock {
+    margin-top: 2rem;
+    padding: 2rem;
+    text-align: left;
+    overflow-y: hidden;
+}
+
+
+
+
+  #allElements {
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 100%;
+}
+
+#semesterRow {
+    margin-bottom: 1rem;
+}
+
+
+#reportCard {
+    margin-top: 2rem;
+    padding-top: 4.2rem;
+}
+
+
+/*FOR MOBILE NAV DISPLAY */
+@media (min-width: 990px) {
+
+    #snackbar {
+        display:none;
+    }
+
+    .bottomNav {
+        display:none;
+    }
+
+
+
+}
+
+/*FOR HDPI SCREENS */
+@media (max-width: 1500px) {
+    #reportCard {
+        margin-top: 2rem;
+        padding-top: 3.7rem;
+    }
+
+    #enrolledCourse {
+        font-size: 1rem;
+    }
+
+
+    #addText {
+        margin-bottom: 1.5rem;
+        font-size: 1.5rem;
+    }
+
+    .gLvkjG {
+        font-size: 1.2rem!important;
+      }
+
+
+
+}
+
+/*FOR MDPI SCREENS */
+@media (max-width: 1300px) {
+
+    #reportCard {
+        margin-top: 2rem;
+        padding-top: 3.5rem;
+    }
+
+    
+    #lectureInput {
+        padding-top: 2.5rem;
+    }
+
+    #CourseList {
+        padding-top: 0.5rem;
+    }
+
+    #dataBlock {
+        padding-top: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    #enrolledCourse {
+        font-size: 1rem;
+    }
+
+    #addText {
+        margin-bottom: 1.5rem;
+        font-size: 1.2rem;
+    }
+
+
+    #SemesterText {
+        font-size: 1rem;
+    }
+
+    #deleteButton {
+        font-size: 1rem;
+    }
+
+    #semesterSPA {
+        width: 6rem;
+        height:6rem;
+        padding-top: 1.5rem;
+    }
+
+    #SPAValue {
+        font-size: 1.2rem;
+    }
+
+    #SPAText {
+        font-size: 0.8rem;
+    }
+
+    .addedSemester {
+        min-height: 15rem;
+    }
+
+    .gLvkjG {
+        font-size: 1.1rem!important;
+      }
+
+}
+
+
+
+
+/*FOR MOBILE SCREENS */
+@media (max-width: 990px) {
+    #allElements {
+        margin:0;
+    }
+
+    #courseListContainer {
+        max-width: unset;
+    }
+
+    #lectureInput {
+        padding: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+    
+    #cardSubtitle {
+        font-size: 0.7rem!important;
+        float: inherit;
+    }
+
+    #dataBlock {
+        display:none;
+    }
+
+
+    #bottomReportData {
+        width: 100%;
+    }
+
+    #semesterSPA {
+        border-radius: 50%;
+        width: 8rem;
+        height: 8rem;
+        padding-top: 2.5rem;
+        text-align: center;
+        background-color: #4E44FE;
+        color:white;
+        box-shadow: 0px 10px 20px 0px rgba(84, 90, 182, 0.20);
+    }
+
+    #otherDataRow {
+        text-align: left;
+        width: 100%;
+    }
+
+    #otherDataRow p  {
+        font-size: 1.2rem;
+    }
+
+    #otherDataRow p span {
+        float: right;
+        font-weight: 700;
+    }
+
+    #otherDataContainer {
+        margin-top: 2rem;
+        position: absolute;
+        left: 20%;
+        width: 60%;
+    }
+
+    #SPAText {
+        font-size: 1rem;
+    }
+
+
+
+    #section2 {
+        padding:0;
+        height: 100vh;
+    }
+
+    #CourseList {
+        margin-top:0;
+        padding: 0;
+    }
+
+    .gLvkjG {
+        font-size: 1rem!important;
+      }
+
+      
+    #dataBlock {
+        margin-top: 2rem;
+    }
+
+    #lectureInput {
+        margin-top: 2rem;
+    }
+}
+
+
+/*FOR SMALL MOBILE SCREENS */
+@media (max-width: 750px) {
+    
+
+
+    #dataBlock {
+        margin-top: 2rem;
+    }
+
+    #lectureInput {
+        margin-top: 2rem;
+    }
+
+}
+
+
+@media (max-width: 450px) {
+    .MuiSvgIcon-root.MuiSvgIcon-fontSizeSmall {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .MuiSvgIcon-root.MuiSvgIcon-fontSizeSmall {
+        font-size: 1.4rem;
+    }
+
+    .bottomNavLink {
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+    
+}
+
+
+/*FOR SCROLLBAR */
+.frame::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.frame::-webkit-scrollbar:vertical {
+    width: 10px;
+}
+
+.frame::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 2px solid white; /* should match background, can't be transparent */
+    background-color: rgba(163, 163, 163, 0.5);
+}
+
+.frame::-webkit-scrollbar-track { 
+    background-color: #fff; 
+    border-radius: 8px; 
+} 
+

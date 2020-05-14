@@ -1,0 +1,128 @@
+.jumbotron {
+    background-color: transparent;
+    transition: all 0.3s;
+    text-align: left;
+    margin-bottom: 0;
+    padding-left: 15px;
+    padding-right:15px;
+    padding-bottom:0;
+    
+}
+
+.jumbotron h1 {
+    font-size: 2.6rem;
+    color: #32292F;
+    margin-bottom:1.5rem;
+    font-weight: 700;
+}
+
+.jumbotron p {
+    font-size: 1.4rem;
+    color: #32292F;
+    margin-bottom:1.5rem;
+}
+
+.btn {
+    font-size: 1.4rem;
+}
+
+.btn-primary {
+    background-color:#2b2319;
+    border-color: #2b2319;
+}
+
+.btn-primary:hover {
+    background-color:#ff1e56;
+    border-color: #ff1e56;
+}
+
+.btn:focus,.btn:active, .btn-success {
+    outline: none !important;
+    box-shadow: none!important;
+    background-color:#ff1e56!important;
+    border-color: #ff1e56!important;
+}
+
+@media (max-width: 1500px) {
+
+
+    .jumbotron h1 {
+        font-size: 2.4rem;
+    }
+    .jumbotron p {
+        font-size: 1.1rem;
+    }
+
+    #guestQuestionButton {
+        font-size: 1.1rem!important;
+    }
+    
+    #guestLoginButton span {
+        font-size: 1.1rem!important;
+    }
+
+}
+
+
+@media (max-width: 1350px) {
+
+
+    .jumbotron h1 {
+        font-size: 2rem;
+    }
+    .jumbotron p {
+        font-size: 1.1rem;
+    }
+
+
+}
+
+
+
+@media (max-width: 850px) {
+
+
+    .jumbotron h1 {
+        font-size: 2.4rem;
+    }
+
+    #guestQuestionButton {
+        font-size: 1rem!important;
+    }
+    
+    #guestLoginButton span {
+        font-size: 1rem!important;
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    .jumbotron h1 {
+        font-size: 2rem;
+    }
+    .jumbotron p {
+        font-size: 1.1rem;
+    }
+    .btn {
+        font-size: 1.1rem;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+
+    .jumbotron h1 {
+        font-size: 1.8rem;
+    }
+    .jumbotron p {
+        font-size: 1rem;
+    }
+    .btn {
+        font-size: 1rem;
+    }
+
+}
+

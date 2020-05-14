@@ -1,0 +1,298 @@
+
+#aboutItems {
+    height:100%;
+    display: flex;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+#FAQ {
+    margin-top: 6rem;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+    text-align:left;
+    color:#32292F;
+    font-weight: 700;
+
+
+}
+
+
+
+.questionBox {
+    border-radius: .55rem;
+    background-color: rgb(48, 107, 200);
+    margin-bottom: 1.5rem;
+    margin-right: 0px;
+    margin-left: 0px;
+    align-items: center;
+}
+
+.questionBox:hover {
+    cursor:pointer;
+
+}
+
+.question {
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-align: left;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    color:white;
+}
+
+
+
+#answer {
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    text-align: left;
+    color:white;
+}
+
+
+.fa-chevron-down {
+    font-size: 1.5rem;
+    color:white;
+    text-align: right;
+    float:right;
+}
+
+.fa-chevron-up {
+    font-size: 1.5rem;
+    color:white;
+    text-align: right; 
+    float:right;
+}
+
+
+
+@media (max-width: 1500px) {
+
+    #FAQ {
+        font-size: 2.4rem;    
+        margin-bottom: 4rem;
+    }
+
+    .questionBox {
+        border-radius: .55rem;
+    }
+
+    .fa-chevron-down,.fa-chevron-up {
+        font-size: 1.2rem;
+    }
+
+    .question {
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: left;
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+        color:white;
+    }
+
+    #answer {
+        padding-bottom: 1rem;
+        font-size: 0.8rem;
+        text-align: left;
+        color:white;
+    }
+    
+}
+
+@media (max-width: 1350px) {
+
+    #FAQ {
+        font-size: 2rem;    
+    }
+
+    .questionBox {
+        border-radius: .55rem;
+        width: 80%;
+    }
+
+    .fa-chevron-down,.fa-chevron-up {
+        font-size: 1.2rem;
+    }
+
+    .question {
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: left;
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+        color:white;
+    }
+
+    #answer {
+        padding-bottom: 1rem;
+        font-size: 0.8rem;
+        text-align: left;
+        color:white;
+    }
+    
+}
+
+@media (max-width: 990px) {
+
+    #FAQ {
+        margin-top:2rem;   
+    }
+
+    #aboutItemsCol {
+        padding-left: 0;
+        padding-right:0;
+    }
+
+
+    #aboutItems.container {
+        margin-top: 1rem;
+        padding-left:0!important;
+        padding-right:0!important;
+    }
+
+    #aboutItems .container {
+        padding-left:0!important;
+        padding-right:0!important;
+    }
+
+
+
+    .questionBox {
+        border-radius: .55rem;
+        width: 92%;
+    }
+
+    .fa-chevron-down,.fa-chevron-up {
+        font-size: 1.2rem;
+    }
+
+    .question {
+        font-size: 1rem;
+        font-weight: 500;
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+        color:white;
+    }
+
+    #answer {
+        padding-bottom: 1rem;
+        font-size: 0.8rem;
+        color:white;
+    }
+    
+}
+
+@media (max-width: 850px) {
+    #FAQ {
+        font-size: 2.4rem; 
+    }
+}
+
+@media (max-width: 650px) {
+
+
+
+    #FAQ {
+        font-size: 2rem;    
+        margin-bottom: 2rem;
+    }
+
+    .questionBox {
+        border-radius: .55rem;
+        width: 97%;
+    }
+
+    .fa-chevron-down,.fa-chevron-up {
+        font-size: 1rem;
+    }
+
+    .question {
+        font-size: 1rem;
+        font-weight: 500;
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+        color:white;
+    }
+
+    #answer {
+        padding-bottom: 1rem;
+        font-size: 0.8rem;
+        color:white;
+    }
+
+
+}
+
+@media (max-width: 500px) {
+
+
+
+    #FAQ {
+        font-size: 1.8rem; 
+        margin-bottom: 2rem;
+    }
+
+    .questionBox {
+        border-radius: .55rem;
+        width: 96%;
+    }
+
+    .fa-chevron-down,.fa-chevron-up {
+        font-size: 1rem;
+    }
+
+    .question {
+        font-size: 1rem;
+        font-weight: 500;
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+        color:white;
+    }
+
+    #answer {
+        padding-bottom: 1rem;
+        font-size: 0.8rem;
+        color:white;
+    }
+
+
+}
+
+@media (max-width: 350px) {
+
+
+
+
+    .questionBox {
+        border-radius: .55rem;
+        width: 94%;
+    }
+
+    .fa-chevron-down,.fa-chevron-up {
+        font-size: 1rem;
+    }
+
+    .question {
+        font-size: 1rem;
+        font-weight: 500;
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+        color:white;
+    }
+
+    #answer {
+        padding-bottom: 1rem;
+        font-size: 0.8rem;
+        color:white;
+    }
+
+
+}

@@ -1,0 +1,147 @@
+ #insertButton, #insertButtonSuccess {
+     background-color:#32292F!important;
+     border: #32292F!important;
+ }
+
+#insertButtonSuccess.btn:focus  {
+    background-color: #53DCC6!important;
+}
+
+
+#LectureForm {
+    transition: all 0.3s;
+    text-align: left;
+}
+
+
+
+#checkbox {
+    margin-bottom: 1rem;
+}
+
+
+
+
+#addCourseInfo {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.form-check-input {
+    position: relative;
+    margin-right: .5rem;
+}
+
+
+@media (max-height: 1500px) {
+
+    .form-control {
+        font-size: 0.9rem;
+    }
+    
+    .form-label {
+        font-size: 0.9rem;
+    }
+    
+    .form-label span {
+        font-size: 0.9rem;
+    }
+    
+    .form-check-label {
+        font-size: 0.9rem;
+    }
+    
+    #insertButton,#insertButtonSuccess {
+        font-size: 1rem;
+    }
+    
+    #semesterButton {
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    
+    
+    #enrolledCourse {
+        font-size: 0.9rem;
+    }
+
+    #coursesEnrolledText {
+        font-size: 1rem;
+    }
+    
+    #expandClassesIcon  {
+        font-size: 1rem;
+    }
+
+    }
+
+
+    @media (max-width: 1500px) {
+
+        .form-check-label {
+            font-size: 0.7rem;
+        }
+
+
+    }
+
+    @media (max-width: 1300px) {
+
+        .form-group {
+            margin-bottom: 0.5rem;
+        }
+
+        .form-control {
+            font-size: 0.7rem;
+        }
+        
+        .form-label {
+            font-size: 0.8rem;
+        }
+        
+        .form-label span {
+            font-size: 0.7rem;
+        }
+        
+        .form-check-label {
+            font-size: 0.8rem;
+        }
+        
+        #questionMark {
+            font-size: 1rem;
+        }
+        
+        #insertButton,#insertButtonSuccess {
+            font-size: 0.8rem;
+        }
+        
+        #semesterButton {
+            font-size: 0.8rem;
+        }
+        
+        #checkbox {
+            margin-top: 0;
+        }
+        
+        #enrolledCourse {
+            font-size: 0.8rem;
+        }
+    
+        #coursesEnrolledText {
+            font-size: 0.8rem;
+        }
+        
+        #expandClassesIcon  {
+            font-size: 0.8rem;
+        }
+        
+        #checkbox {
+            margin-bottom: 0.5rem;
+        }
+
+        #insertButton,#insertButtonSuccess {
+            margin-top: 0.5rem;
+        }
+
+        }
